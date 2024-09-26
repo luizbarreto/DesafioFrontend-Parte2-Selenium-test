@@ -12,10 +12,8 @@ import java.util.List;
 
 public class teste2 {
     public static void main(String[] args) {
-        // Defina o caminho correto do ChromeDriver (caminho onde você extraiu o ChromeDriver)
         System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
 
-        // Inicialize o WebDriver (Chrome)
         WebDriver driver = new ChromeDriver();
 
         try {
